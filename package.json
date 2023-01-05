@@ -1,5 +1,5 @@
 {
-  "name": "rnslider",
+  "name": "@garbo/rnslider",
   "version": "7.0.0",
   "description": "Lightweight slider for React-Native and React-Native-Web. A Range slider is included",
   "keywords": [
