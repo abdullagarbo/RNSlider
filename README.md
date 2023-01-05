@@ -16,7 +16,7 @@ Have a look at the troubleshooting section if you encounter any issue, or open a
 ## Install
 
 ```
-npm i -S @garbo/slider
+npm i @garbo/rnslider
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ npm i -S @garbo/slider
 You can see below the available props with their respective default values.
 
 ```javascript
-import { Slider } from '@garbo/slider'
+import { Slider } from '@garbo/rnslider'
 
 <Slider
   value={0}                         // set the current slider's value
@@ -60,7 +60,7 @@ import { Slider } from '@garbo/slider'
 You can see below the available props with their respective default values
 
 ```javascript
-import { RangeSlider } from '@garbo/slider'
+import { RangeSlider } from '@garbo/rnslider'
 
 <RangeSlider
   range={[0, 1]}                    // set the current slider's value
