@@ -16,7 +16,7 @@ Have a look at the troubleshooting section if you encounter any issue, or open a
 ## Install
 
 ```
-npm i -S @sharcoux/slider
+npm i -S @garbo/slider
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ npm i -S @sharcoux/slider
 You can see below the available props with their respective default values.
 
 ```javascript
-import { Slider } from '@sharcoux/slider'
+import { Slider } from '@garbo/slider'
 
 <Slider
   value={0}                         // set the current slider's value
@@ -60,7 +60,7 @@ import { Slider } from '@sharcoux/slider'
 You can see below the available props with their respective default values
 
 ```javascript
-import { RangeSlider } from '@sharcoux/slider'
+import { RangeSlider } from '@garbo/slider'
 
 <RangeSlider
   range={[0, 1]}                    // set the current slider's value
@@ -153,4 +153,4 @@ There is an [open issue](https://github.com/facebook/react-native/issues/31843) 
  * new `slideOnTap` prop
  * performance boost
 
-If you have any issue, please fill an issue [on our repo](https://github.com/Sharcoux/slider/issues)
+If you have any issue, please fill an issue [on our repo](https://github.com/abdullagarbo/RNSlider/issues)
